@@ -1,0 +1,39 @@
+ul li::marker {
+    font-size: 50%;
+    color : black;
+}
+
+.a {font-size : 150%;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 8px;}
+
+.b {font-size : 50%;
+    font-weight: 100;
+    text-decoration-color: white;
+    text-decoration-thickness: 3px;}
+
+td {
+    text-align: center;
+    }
+
+ul > li {
+    font-size : 80%;
+}
+
+#nobr1 {
+    color : blue
+}
+
+#nobr2 {
+    color : red
+}
+
+#check-btn { display: none; }
+#check-btn:checked ~ .menubars { display : block; }
+.menubars { display: none;}
+
+#check-btn1 { display: none; }
+#check-btn1:checked ~ .menubars { display : block; }
+.menubars { display: none;}
